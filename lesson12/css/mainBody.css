@@ -1,0 +1,144 @@
+.mainBlock{
+	display: flex;
+		align-items: center;
+		justify-content: space-around;
+}
+.infoTextBlock{
+		max-width: 474px;
+		width: 100%;
+		height: auto;
+}
+
+.priceBlockSmall{
+	padding-bottom: 12px;
+	display: flex;
+	align-items: center;
+	flex-grow:1;
+}
+.mainPrice{
+padding-right: 43px;
+}
+.descriptionBlock{
+	font-size: 16px;
+}
+
+.goodName{
+font-size: 50px;
+}
+
+
+.findYour{
+	font-size: 16px;
+	padding-bottom: 19px;
+}
+.findColor{
+	width: 139px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	}
+.findColor img{
+
+	width: 37px;
+	height: 37px;
+}
+.findColor img:hover{
+	width: 46px;
+	height: 46px;
+}
+.mainPrice, .available{
+	font-size: 40px;
+}
+
+.priceBlockSmall button{
+	padding: 12px 48px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #FFF;
+	background-color: #000;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 93px;
+	padding-right: 67px;
+	padding-bottom: 63px;
+}
+
+.otherGoods{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.otherPriceBlock{
+	display: flex;
+	align-items: center;
+
+	
+}
+.otherPrice{
+	font-size: 25px;
+	padding-right: 25px;
+	font-weight: 600;
+	color: #9D8220;
+}
+
+.otherbuyButton{
+	border: none;
+	outline: none;
+	color: #FFF;
+	background-color: #000;
+	font-size: 14px;
+}
+
+.otherDescription{
+	font-size: 14px;
+}
+
+.goodName{
+	font-size: 50px;
+	padding-bottom: 4px;
+}
+
+.otherbuyButton{
+	padding: 12px 33px;
+}
+
+.smallContainer{
+	display: flex;
+	flex-direction: column-reverse;
+    width: 393px;
+    height: 560px;
+}
+
+.desc{
+	bottom: 0;
+	left: 0;
+}
+
+
+.img1{
+	background:url("../img/Bitmap_pink.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+
+}
+
+.img2{
+	background:url("../img/Bitmap_brown.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.img3{
+	background:url("../img/Bitmap_black.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+
+}
+
+
