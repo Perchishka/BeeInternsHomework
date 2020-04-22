@@ -1,0 +1,48 @@
+
+
+.upperMenu{
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 14px 95px;
+	z-index: 1;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0, .47)
+
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+.upperMenuLink{
+	margin-right: 110px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.upperMenuLink:last-child {
+	margin-right: 0;
+}
+.nav_icon:last-child {
+	margin-right: 0;
+}
+
+.nav_icon{
+	margin-right: 47px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+.nav_icon img{
+	width: 100%
+	height: auto;
+}

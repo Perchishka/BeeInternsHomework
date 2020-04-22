@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<title>Seller Application</title>
+</head>
+<body>
+	<div class="page">
+		<div class = 'header'>
+			<div class="logo">
+				<img class="mainImg" src="./img/shopper.png" alt="Shpper" />
+			    <img class="blueO" src="./img/o.png" alt="o" />
+			</div>
+			<div class ="searchBlock">
+				<input class="inputField"/>
+				<button class ="button blueButton" name="search">Search</button>
+			</div>
+			<div class = "loginBlock">
+				<button class="button wButton">Log in</button>
+				<button class="button wButton">Sign up</button>
+				<img class="iconButton" src="./img/shortlist_icon.png" alt="shortlist_icon" />
+			    <img class="iconButton" src="./img/Cart.png" alt="cart" />
+			</div>
+		</div>
+		<div class = 'upperMenu'>
+ 			<a class= "upperMenuButton">Home Decor</a>
+ 			<a class= "upperMenuButton">Furniture</a>
+ 			<a class= "upperMenuButton">Lighting</a>
+ 			<a class= "upperMenuButton">Home Accents</a>
+ 			<a class= "upperMenuButton">Rugs</a>
+ 			<a class= "upperMenuButton">Outdoors</a>
+ 			<a class= "upperMenuButton">Holidays</a>
+ 			<a class= "upperMenuButton">Gifts</a>
+ 			<a class= "upperMenuButton">Events</a>
+ 			<div class="spacer2"></div>
+		</div>
+
+		<div class="container">
+				<div class="Seller_app">Seller Application</div>
+		<div class = "middleMenu">
+			  <a class= "middleButton">Application Criteria</a>
+			  <a class= "middleButton">Company Profile</a>
+			  <a class= "middleButton">Web & Social Media</a>
+			  <a class= "middleButton active">Contact info</a>
+			  <a class= "middleButton">Confirm account</a>
+
+		</div>
+		<div class = 'mainBlock'>
+
+			<div class="formRow">
+				<div class="customerData small">
+					<label for="mr">Name</label> 
+					<input name="mr" class="data" placeholder="Mr." />
+                </div> 
+                <div class="spacer"></div>		
+				<input name="first" class="data medium" placeholder="First Name" />
+				<div class="spacer"></div>		
+				<input name="middle" class="data medium" placeholder="Middle Name" />
+				<div class="spacer"></div>		
+				<input name="last" class="data medium" placeholder="Last Name" />
+			</div>
+			<div class="formRow">
+			<div class="customerData title">
+					<label for="title">Title</label> 
+					<input class="data title" name="title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser" />
+            </div>
+			</div>
+			<div class ="mailingRow">
+				<p class="blueLine">BUSINESS MAILING ADDRESS</p>
+				<hr/>
+			</div>
+            <div class="formRow">
+				<div class="customerData">
+					<label for="address">Street Address</label> 
+					<input name="address" class="data flex"/>
+				</div>
+				<div class="customerData">
+					<label for="address">Apt / Suite / Other</label> 
+					<input name="other" class="data flex"/>
+				</div>
+				<div class="customerData">	
+					<label for="address">City</label> 
+					<input name="city" class="data flex"/>
+                </div>
+            </div> 
+            <div class="formRowTop">
+				<div class="customerData">
+					<label for="zip">Zip / Postal Code</label> 
+					<input name="zip" class="data flex"/>
+				</div>
+				<div class="customerData">
+					<label for="country">Country</label> 
+					<input name="country" class="data flex" placeholder="Select Country" />
+				</div>
+				<div class="customerData">	
+					<label for="phoneNumber">Phone Number</label> 
+					<input name="phoneNumber" class="data flex"/>
+					<div class="flex message">To Validate your account please enter valid mobile Number to receive confirmation code</div>
+                </div>
+            </div > 
+            <div class="submitBlock">
+            <button class= "button wButton">Go Back</button>
+            <span>By submitting this application, you agree to the</span>   		
+			<button class= "submitButton">Submit Application</button>
+			</div>  
+		</div>
+		<div class = 'footer'>
+			<div class="help">
+			  <span>How We Help</span>
+			     <ul class="footer_list">
+			  	   <li>
+				     <a>Retailers</a>
+				   </li>
+				   <li>
+				     <a>Interiors Designers</a>
+			       </li>
+			       <li>
+				     <a>Product Designers</a>
+			       </li>
+			       <li>
+				     <a>Wholesalers/ Importers</a>
+			       </li>
+			       <li>
+				     <a>Artisans</a>
+			       </li>
+			     </ul>
+			</div>
+			<div class="help">
+			  <span>Get to Know Us</span>
+			     <ul class="footer_list">
+			  	   <li>
+				    <a>About</a>
+				   </li>
+				   <li>				    
+				    <a>Policies</a>
+				   </li>
+				   <li>				    
+				    <a>Careers</a>
+				   </li>
+				   <li>				    
+				    <a>Press</a>
+				   </li>		    
+			     </ul>
+			</div>
+			<div class="help">
+			  <span>Join the Community</span>
+			     <ul class="footer_list">
+			  	   <li>			     	
+				    <a>Upcoming Events</a>
+				   </li>
+				   <li>							    
+				    <a>Become a Buyer</a>
+				   </li>
+				   <li>							    
+				   <a>Become a Seller</a>
+				   </li>
+				   <li>							   
+			  </ul>
+			</div>
+			<div class="help">
+			  <span>Follow Us</span>
+			     <ul class="footer_list">
+			  	   <li class="footerImg">
+			  	   	<img src="./img/fbIcon.png"></img>
+				    <a>Facebook</a>
+				   </li>
+				   <li  class="footerImg">	
+				    <img src="./img/prIcon.png"></img>	    
+				    <a>Pinterest</a>
+				   </li> 
+				   <li  class="footerImg">	
+				    <img src="./img/twtIcon.png"></img> 
+				    <a>Twitter</a>
+				   </li>
+				   <li  class="footerImg">	
+				    <img src="./img/instIcon.png"></img>
+				    <a>Instagram</a>
+				   </li>		    
+			     </ul>
+		    </div>
+		</div>	
+		</div>
+
+	</div>
+
+</body>
+</html>
