@@ -1,0 +1,98 @@
+
+html, body{
+	padding: 0;
+	margin:0;
+	border: 0;
+	
+}
+
+.wrapper{
+	min-height: 100%;
+	font-family: Roboto;
+
+}
+
+.container{
+	max-width: 670px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+
+
+
+
+}
+
+.container>nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+.header{
+font-weight: bold;
+font-size: 35px;
+margin-bottom: 30px;
+}
+
+ a:last-child{
+ 	margin-bottom: 20px;
+ }
+nav div>a{
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+	padding: 10px 14px;
+	width: 100%;
+	align-items: center;
+	background-color: #F5F5F5;
+	border: 1px solid #E8E8E8;
+	
+}
+
+div img{
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+nav div>a:before, nav>div  div:target:before{
+
+content:"";
+ position: absolute;
+ top: 0;
+ left:-10px; 
+ width: 2px;
+ background-color: #0179FF;
+}
+
+nav div>a:before{
+	height: 40px;
+}
+
+nav>div  div:target:before{
+ height: 100%;
+}
+
+
+
+nav>div{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+nav>div > div{
+	font-size: 13px;
+	color: #5D5D5D;
+	display:none;
+
+}
+
+
+nav>div  div:target{
+	position: relative;
+	display:block;
+
+}
