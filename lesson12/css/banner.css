@@ -1,0 +1,62 @@
+.upperBody{
+	background-color: #2B2835;
+}
+.wrapper{
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	max-width: 1240px;
+	align-items: center;
+	justify-content: flex-end;
+}
+.upperBody-picture{
+	position: absolute;
+	top: 0;
+	left:-110px;
+}
+.info{
+	padding: 210px 0 180px;
+	width: 100%;
+	max-width: 510px;
+}
+.title{
+	padding-bottom: 40px;
+}
+
+.subtitle{
+	padding-bottom: 13px;
+	font-size: 16px;
+}
+.subtitle, .title, .upperPrice{
+	color: #fff;
+}
+.upperPrice{
+	padding-right: 34px;
+	}
+.title, .upperPrice{
+	font-size: 40px;
+}
+.priceBlock{
+	padding-bottom: 14px;
+	display: flex;
+	align-items: center;
+	flex-grow:1;
+	
+}
+
+button{
+	padding: 12px 58px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	font-size: 14px;
+	color: #000;
+	background-color: #FFC700;
+}
+.addition_text{
+	font-size: 13px;
+	color: #FFC700;
+}
+}
