@@ -1,0 +1,79 @@
+
+html, body{
+	padding: 0;
+	margin:0;
+	font-family: "Abel";
+	
+}
+
+.container{
+	display: flex;
+	max-width: 1440px;
+	flex-direction: column;
+	margin: 0 auto;
+
+}
+.logo{
+	max-width: 55px;
+	max-height: 55px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding: 20px 50px;
+}
+
+.headerMenu{
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+
+}
+
+.headerMenuBlock:last-child{
+	margin-right: 0px;
+	
+}
+.headerMenuBlock{
+	background-color: #D8D8D8;
+	margin-right: 40px;
+	width: 155px;
+}
+
+.banner{
+	display: flex;
+	flex-direction: column;
+	background-color: #D8D8D8;
+	padding: 120px;
+}
+
+.bannerHeader{
+display: flex;
+flex-direction: column;
+}
+
+.bannerHeaderBig{
+	font-size: 60px;
+}
+.bannerSlogan{
+	font-size: 36px;
+}
+.bunnerButtons{
+	margin-top: 30px;
+	display: flex;
+}
+.white{
+background-color: white;
+margin-right: 25px;
+}
+.black{
+background-color: black;
+color: white;
+}
+.white, .black{
+	border: 0;
+	padding: 15px 75px;
+	font-size: 26px;
+}
