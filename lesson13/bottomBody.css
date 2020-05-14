@@ -1,0 +1,165 @@
+
+/*Bottom body part: right column*/
+.bottom_content{
+	background-color: #FFF;
+	display: flex;
+	padding: 20px;
+}
+.bottom_row{
+	flex-grow: 1;
+}
+
+.right_column{
+	display: flex;
+	background: rgba(0, 84, 254, .05);
+	flex-direction: column;
+	flex-grow: 0;
+	flex-basis: 195px;
+	
+}
+.test_plan{
+	background-color: #F2F2F2;
+}
+
+
+.column_desc{
+	font-size: 14px;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+.right_column input, .teams input, .steps input, .checkBox_date input{
+	background-color: transparent;
+	border: 0px solid;
+
+}
+
+.bottom_content input::-webkit-input-placeholder{
+	font-weight: bold;
+	font-size: 14px;
+	opacity: 70%;
+	line-height: 16px;
+	color: #4A4A4A;
+	padding-left: 10px;
+	padding-right: 10px;
+	white-space:pre-line;  
+	position:relative;
+	min-height: 495px;
+	
+}
+
+.right_column input::-webkit-input-placeholder{
+	top: -260px;
+}
+
+/*Bottom body part: first row*/
+.first_row{
+	display: flex;
+}
+
+.teams{
+	background: rgba(0, 84, 254, .05);
+	flex-grow: 0;
+	color: #4A4A4A;
+	flex-basis: 195px;
+	margin-right: 28px;
+}
+.teamsinput::-webkit-input-placeholder{
+}
+
+.test_plan{
+	display: flex;
+	flex-direction: column;
+	margin-right: 16px;
+	flex-grow: 1;
+	padding: 15px;
+}
+.steps {
+	display: flex;
+	justify-content: space-between;
+	min-height: 158px;
+	flex-basis: 95px;
+}
+
+.steps div:first-child{
+	padding-left: 0px;
+}
+
+.steps input{
+	background: rgba(0, 84, 254, .05);
+	min-height: 158px;
+}
+.steps_p{
+	padding-left: 10px;
+	flex-basis: 95px;
+	min-height: 158px;
+}
+.test-pan-name{
+	padding-top: 14px;
+}
+.test-plan-desc{
+	padding-bottom: 16px;
+}
+.bottom_checks{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.second_row{
+	background: rgba(0, 84, 254, .05);
+	display: flex;
+	flex-direction: column;
+	margin-top: 16px;
+	margin-right: 16px;
+	padding: 8px;
+	min-height: 197px;
+}
+.checkBox_date{
+	display: flex;
+	flex-direction: column;
+	padding-left: 42px;
+}
+.first_column{
+	display: flex;
+	flex-direction: column;
+	padding-right: 40px;
+
+}
+.reminder-check1, .reminder-check2{
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+}
+.reminder-check1{
+	margin-right: 5px;
+}
+
+.input-date{
+	display: flex;
+	font-weight: bold;
+}
+
+.review{margin-bottom: 10px;}
+
+.second_column input, .input-date input{
+	font-weight: bold;
+}
+.second_column{
+	flex-basis: 234px;
+	padding-right: 40px;
+}
+.second_column_desc, .checkBox_date_desc{
+	font-size: 12px;
+}
+.check3{
+	display: flex;
+	font-size: 14px;
+}
+.check3 label{
+	padding-left: 4px;
+}
+
+.third_column{
+	flex-basis: 234px;
+}

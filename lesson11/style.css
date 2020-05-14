@@ -1,0 +1,309 @@
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: roboto;
+
+}
+
+.upperMenu{
+padding-left: 80px;
+display: flex;
+align-items: center;
+height: 45px;
+background:  #F4F4F4;
+}
+
+.upperMenuButton{
+flex-grow: 1;
+font-size:  15px;
+}
+
+.spacer2{
+    flex-grow: 7;
+}
+
+.footer{
+    font-family: Lato;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    inline-size: 970px;
+    block-size: 332px;
+}
+.submitBlock{
+    align-items: center;
+    margin: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitBlock span{
+    color: #878786;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+.submitButton{
+    width: 150px;
+    height: 40px;
+    color: #FFF;
+    background: #007AFF;
+    font-size: 14px;
+    border: 0;
+    letter-spacing: 0.28px;
+    border-radius: 2px;
+}
+
+.logo {
+    height: 24px;
+    position: relative;
+    width: 15%;
+
+}
+
+.blueO{
+    float: none;
+    position: absolute;
+    left:49.7px;
+}
+
+.mainImg{
+    position: absolute;
+    left: 0px;
+    float: none;
+}
+
+
+.searchBlock {
+    display: flex;
+    width: 33%;
+}
+
+.inputField{
+flex-grow: 1;
+}
+
+.loginBlock{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: inherit;
+
+}
+
+.iconButton{
+    height: 26px;
+    width: 28px;
+}
+
+
+.button{
+    text-align: center;
+    font-size: 17px;
+    border-radius: 2px;
+}
+
+.blueButton{
+    color: #FFF;
+    border: 0;
+    padding: 0;
+    background: #007AFF
+}
+
+.wButton{
+    width: 100px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #757575;
+}
+
+.middleButton{
+    font-size: 14px;
+    color: #878786;
+    width: : 200px;
+    height: : 20px;
+}
+.middleMenu{
+    margin-bottom: 20px;
+    width: 970px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Seller_app{
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    margin: 35px;
+}
+
+
+button[name='search']{
+    flex-grow: 0;
+    box-sizing: border-box;
+    width: 75px;
+    height: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainBlock {
+    padding-top: 45px;
+    border-radius: 2px;
+    text-align: center;
+    width: 970px;
+    border: 1px solid #C6C6C5;
+}
+
+.formRow{
+    margin-bottom: 35px;
+    margin-left: 21px;
+    margin-right: 21px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.customerData{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+.data{
+    height: 40px;
+    border: 1px solid #C6C6C5;
+}
+.small{
+    flex-grow: 2;
+}
+.medium{
+    flex-grow: 3;
+}
+.spacer{
+    flex-grow: 0.5;
+}
+
+
+
+
+ input::placeholder{
+    padding-left: 17px;
+    color: #878786;
+
+}
+.flex{
+    width: 280px;
+}
+.message{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #878786;
+    letter-spacing: 0.3px;
+}
+
+
+
+.customerData label{
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.formRowTop{
+    margin-left: 21px;
+    margin-right: 21px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.title{
+   width: 100%; 
+}
+.mailingRow{
+    text-align: left;
+    margin-left:21px; 
+    margin-right: 21px;
+}
+ .mailingRow hr {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    height: 1px;
+    background: #C6C6C5;
+    margin-bottom: 17px;
+    }
+
+ .mailingRow p {
+        color: #007AFF;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+td{padding-top: 17px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.secondLine{
+    padding-top: 30.92px;
+}
+
+.footer span{
+position: relative;
+padding: 34px 0;
+width: 100%;
+font-weight: 600;
+font-size: 24px;
+}
+
+.footer a{
+     font-size: 14px;
+     font-weight: bold;
+     text-align: -webkit-match-parent;
+}
+
+.help{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer ul{
+list-style: none;
+padding-left: 0;
+
+}
+ .footer li{
+    margin-bottom: 21px;
+    
+ }
+
+ .middleMenu a:hover, a:active{
+   color: #007AFF;
+ }
+
+  .active{
+   color: #007AFF;
+ }
+
+.footerImg{
+    display: flex;
+    align-items: center;
+
+}
+
+.footerImg a{
+   margin-left: 4px;
+}
