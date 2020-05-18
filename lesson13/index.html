@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bottomBody.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<title>MainPage</title>
+</head>
+<body>
+	<div class="page">
+		<div class="leftblock">
+			<div class="leftBlockHeader">Usability test plan Dashboard</div>
+			<div class="leftBlockItem">
+				<div class="leftText">The sercive/product that is going to be tested</div>
+				<div contenteditable class ="leftblock-subblock"></div>
+			</div>
+			<div class="leftBlockItem">
+				<div class="leftText">Business requirements</div>
+				<div contenteditable class ="leftblock-subblock"></div>
+			</div>
+			<div class="leftBlockItem">
+				<div class="leftText">User requirements</div>
+				<div contenteditable class ="leftblock-subblock">
+				</div>
+			</div>
+			<div class="leftBlockItem">
+				<div class="leftText">Location & dates of the tests</div>
+				<div contenteditable class ="leftblock-subblock"></div>
+			</div>
+		</div>
+		<div class="mainblock">
+			<div class="description">Test Objectives</div>
+			<div class="upper-content">
+				<input class="question_box" placeholder="Why are you doing this user testing? What are the benefits Any risks of not achieving this test?">
+				<input class="question_box" name ="second_questionBox" placeholder="What are the goals of the usabilty test? What are the specific questions that will be answered? What hypothesis that will be tested?">
+			</div>
+			<div class="description">Test Preparation</div>
+			<div class ="bottom_content">
+				<div class="bottom_row">
+					<div class="first_row">
+						<div class="teams">
+							<input class="question_box" placeholder="Teams who are involved and what are their responsibilities?">
+						</div>
+						<div class="test_plan">
+							<div class='test-pan-name'>Test plan / procedure</div>
+							<div class="test-plan-desc">List the main steps of the test procedure</div>
+							<div class="steps">
+								<div class="steps_p">
+									<input placeholder="1">
+								</div>
+								<div class="steps_p">
+									<input placeholder="2">
+								</div>
+								<div class="steps_p">
+									<input placeholder="3">
+								</div>
+								<div class="steps_p">
+									<input placeholder="4">
+								</div>
+								<div class="steps_p">
+									<input placeholder="5">
+								</div>
+								<div class="steps_p">
+									<input placeholder="6">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="second_row">
+						<div>Review before the test (check if done)</div>	
+						<div class="bottom_checks">
+							<div class="first_column">	
+								<div class="review">
+									<input id="check1" type="checkbox" name="check" value="check1">
+									<label for="check1">Email Participants</label>
+								</div>
+								<div class="checkBox_date">
+									<div class="checkBox_date_desc">If checked, write the date that was sent</div>
+									<div class="input-date">
+										<div class="date-desc">Date:</div>
+										<input  name="date">
+									</div>
+								</div>
+
+							</div>
+							<div class="second_column">
+								<div>Reminder participants about the tests </div>
+								<div class="second_column_desc">Write the number and dates of the reminders 
+								If  reminder was done, please check the box</div>
+								<div class="reminder-check1">
+									<input id="check1" type="checkbox" name="check" value="check1">
+									<label for="check1">Reminder #1  -  Date:</label>
+								</div>
+								<div class="reminder-check2">
+									<input id="check1" type="checkbox" name="check" value="check1">
+									<label for="check1">Reminder #2  -  Date:</label>
+								</div>
+							</div>
+							<div class="third_column">
+								<div class="check3">
+									<input id="check1" type="checkbox" name="check" value="check1">
+									<label for="check1">Ethical Approval prepared and sent</label>
+								</div>
+								<div class="check3">
+									<input id="check1" type="checkbox" name="check" value="check1">
+									<label for="check1">Recording consent form prepared for the test session</label>
+								</div>
+								<div class="check3">
+									<input id="check1" type="checkbox" name="check" value="check1">
+									<label for="check1">Usability testing checklist prepared for the test session</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="right_column">
+					<div class="column_desc">Test Tasks</div>
+					<input class="question_box" placeholder="WList the test tasks">
+				</div>
+			</div>
+
+		</div>
+	</body>
+	</html>

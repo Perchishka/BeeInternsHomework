@@ -1,0 +1,114 @@
+
+.mainBody{
+	display: flex;
+	margin: 80px 110px;
+	
+	justify-content: space-around;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	max-width: 380px;
+
+
+}
+.column:last-child{
+	margin-right: 0;
+}
+
+.column a{
+	font-size: 18px;
+	color: #787878;
+	text-decoration: none;
+}
+
+.column p{
+font-size: 18px;
+color: #1C1E20;
+}
+
+.columnPic{
+	background-color: #D8D8D8;
+	width: 380px;
+	height: 244px;
+}
+
+.updates{
+	padding-top: 130px;
+	padding-bottom: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #D8D8D8;
+
+}
+.updatesHeader{
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+input::placeholder{
+	padding-left: 10px;
+}
+.updatesForm input{
+	width: 420px;
+}
+
+.updatesForm{
+	display: flex;
+	font-size: 26px;
+}
+
+.updatesForm button{
+border: 0;
+padding:15px 90px; 
+color: white;
+background-color: black;
+
+}
+
+.updatesForm input{
+border: 0;
+}
+
+.body{
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+}
+
+.bodySecondBlock{
+	display: flex;
+	flex-direction: column;
+	margin: 80px 125px;
+
+}
+.desc{
+	display: flex;
+	width: 380px;
+	flex-direction: column;
+	
+}
+.columnDown>.desc, .columnDown>.columnPic{
+	margin-right: 60px;
+
+}
+
+.columnDown{
+	display: flex;
+	align-items: flex;
+	justify-content: center;
+}
+
+.columnDown:first-child .desc , .columnDown:last-child .desc{
+align-items: flex-end;
+text-align: right;
+}
+
+.button{
+	margin-top: 80px;
+}
+
+

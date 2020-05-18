@@ -1,0 +1,35 @@
+.footer{
+
+	background-color: #D8D8D8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 220px;
+	margin-top: 80px;
+}
+
+.footerlogo{
+	height: 55px;
+	width: 55px;
+	background-color: white;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.footerMenuBlock{
+	height: 30px;
+	width: 154px;
+	background-color: white;
+	margin-right: 40px;
+margin-bottom: 30px;
+}
+
+.footerMenu{
+	display: flex;
+
+
+}
+
+.line{
+	margin-bottom: 30px;
+}
