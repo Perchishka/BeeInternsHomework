@@ -1,0 +1,86 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+}
+.container{
+	margin:20px;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu a{
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+a, a:active, a:focus {
+  text-decoration: none;
+  color: black; /* устанавливаем нужный цвет */
+}
+a:hover{
+	text-decoration: underline;
+	color: #4fbc36;
+}
+
+.menu a:last-child{
+	margin-right: 0;
+}
+
+.logo{
+	margin-left: 50px;
+}
+
+.phones{
+	font-size: 14px;
+	color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #4fbc36;
+	width: 30%;
+}
+
+.phone{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #4fbc36;
+	padding: 15px;
+}
+.img_phone{
+	margin-right: 10px;
+}
+
+.paint-block{
+	background-color: #4fbc36;
+}
+
+	.order-call img{
+		margin-left: 10px;
+		width: 6%;
+		margin-right: 10px;
+		
+	}
+
+	.order-call{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background-color: #ffe03a;
+		display: flex;
+		align-items: center;
+		padding: 3px;
+	}

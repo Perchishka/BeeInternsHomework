@@ -1,0 +1,41 @@
+.footer{
+	font-family: Roboto;
+text-transform: uppercase;
+display: flex;
+justify-content: space-around;
+padding: 34px 0;
+background-color: #2B2835;
+}
+
+.footer_list a{
+
+	opacity: 0.47;
+	color: #FFF;
+ font-size: 16px;
+
+}
+
+.footer_info span{
+	font-weight: 600;
+	color: #FFF;
+	font-size: 24px;
+}
+.footer_info{
+display: inline-block;
+  vertical-align: top;
+}
+
+.footer ul{
+list-style: none;
+padding-left: 0;
+
+}
+.footer li{
+    margin-bottom: 21px;
+    
+ }
+
+ .follow{
+ 	padding-top: 40px;
+ }
+
